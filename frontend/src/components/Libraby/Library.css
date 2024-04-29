@@ -1,0 +1,48 @@
+.explore-lib{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.explore-lib h1{
+    font-weight: 500;
+    color: #050A59;
+}
+.explore-lib-text{
+    max-width: 60%;
+    columns: #050A59;
+}
+.explore-lib-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin: 20px 0px;
+    overflow-x: scroll;
+}
+.explore-lib-list::-webkit-scrollbar{
+    display: none;
+}
+.book-item img{
+    height: 100px;
+    width: 7.5vw;
+    min-width: 80px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.book-item p{
+    margin-top: 10px ;
+    color: #050A59;
+    font-size: max(1.4vw,16px);
+    cursor: pointer;
+}
+.explore-lib hr{
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #050A59;
+    border: none;
+}
+.book-item .active{
+    border: 4px solid #D91147;
+    padding: 1px;
+}
